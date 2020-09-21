@@ -10,7 +10,7 @@ type MovieRepository interface {
 type MovieManager struct {
 }
 
-//构造函数
+//构造函数，controller中使用
 func NewMovieManager() MovieRepository {
 	return &MovieManager{}
 }
